@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     height: 85px;
-    background-color: aqua;
+   
     align-items: center;
 }
 .logo{
@@ -44,11 +44,13 @@
 }
 .started{
     margin-left: 30px;
+    background-color: rgba(15, 88, 97, 0.5);
     color: rgb(255, 255, 255);
     padding: 12px 14px;
     outline: none;
     border: none;
     border-radius: 3px;
+    
 }
 .menu ul li{
     font-size: 13px;
