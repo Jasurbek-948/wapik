@@ -1,0 +1,39 @@
+.main-inner{
+    height: 575px;
+}
+.content{
+    width: 487px;
+}
+.welcom{
+    font-size: 38px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 0.553;
+    text-align: left;
+}
+.welcom-text{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    width: 486px;
+    margin-top: 20px;
+}
+.learn{
+    padding: 20px 40px;
+    background-color: rgb(111, 176, 72);
+    border: none;
+    border-radius: 3px;
+    margin-top: 26px;
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+
+  
+  
