@@ -9,13 +9,14 @@ const Feature = () => {
     <div className='container'>
         <div className='box'>
             <div className='title'>Best of our features</div>
-            <div className='line'></div>
+            <div className='line1'></div>
             <div className='box-text'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
             </div>
         </div>
-        <div className="row">
+    <div className='vector'>
+        <div className="row text-center">
             <div className="col">
                 <img src={smart} alt="" />
                 <div className='col-title'>
@@ -44,6 +45,41 @@ const Feature = () => {
                 </div>
             </div>
         </div>
+    </div>
+    <div className='line-group'>
+        <div className='line2'></div>
+        <div className='line3'></div>
+    </div>
+    
+    <div>
+        <div className='row'>
+            <div className="col">
+                <div>
+                    <img src="" alt="" />
+                    <div>Cross Browser Compatibility</div>
+                    <div>Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.</div>
+                </div>
+                <div>
+                    <img src="" alt="" />
+                    <div>Pixel Perfect</div>
+                    <div>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+                
+            </div>
+            <div className="col">
+            <div>
+                    <img src="" alt="" />
+                    <div>Creative Idea</div>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.</div>
+                </div>
+                <div>
+                    <img src="" alt="" />
+                    <div>Free Forever and Ever</div>
+                    <div>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus.</div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
   )
 }
