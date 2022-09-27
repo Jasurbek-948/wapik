@@ -9,6 +9,7 @@ const MainPage = () =>{
                     <div className="welcom-text">Wapik is multipurpose template, with modern and smart design. Wapik is perfect template for you!</div>
                     <button className="learn">Learn More</button>
                 </div>
+              
                 
             </div>
         </div>

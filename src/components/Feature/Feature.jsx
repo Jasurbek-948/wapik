@@ -1,5 +1,5 @@
 import React from 'react'
-import 'Feature.css'
+import './Feature.css'
 
 const Feature = () => {
   return (
@@ -12,6 +12,11 @@ const Feature = () => {
                 Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
             </div>
 
+        </div>
+        <div className="row">
+            <div className="col"></div>
+            <div className="col"></div>
+            <div className="col"></div>
         </div>
     </div>
   )

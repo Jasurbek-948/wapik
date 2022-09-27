@@ -1,0 +1,19 @@
+.title{
+    font-size: 32px;
+    font-family: "Myriad Pro";
+    color: rgb(15, 95, 92);
+    line-height: 0.625;
+    text-align: center;
+}
+.line{
+    width: 65px;
+    height: 1px;
+    background-color: rgb(111, 176, 72);
+    margin: 20px auto; 
+    
+}
+.box{
+    text-align: center;
+}
+
+  
