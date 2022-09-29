@@ -1,16 +1,17 @@
 import React from 'react'
-
+import hand from '../image/hand.png'
+import './Templete.css'
 const Templete = () => {
   return (
     <div className='container'>
         <div>
-            <div>Looking for the perfect template to use?</div>
-            <div></div>
-            <div>Donec id elit non mi porta gravida at eget metus.</div>
+            <div className='title'>Looking for the perfect template to use?</div>
+            <div className='line1'></div>
+            <div className='box-text'>Donec id elit non mi porta gravida at eget metus.</div>
         </div>
-        <div>
-            <div>
-                <img src="" alt="" />
+        <div className='temp-item'>
+            <div className='temp-img'>
+                <img src={hand} alt="" />
             </div>
             <div>
                 <div>Responsive Ready</div>
@@ -34,4 +35,4 @@ const Templete = () => {
   )
 }
 
-export default Templete
+export default Templete;

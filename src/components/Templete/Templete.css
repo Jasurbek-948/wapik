@@ -1,0 +1,28 @@
+.title{
+    font-size: 32px;
+    font-family: "Myriad Pro";
+    color: rgb(15, 95, 92);
+    line-height: 0.625;
+    text-align: center;
+}
+.line1{
+    width: 65px;
+    height: 1px;
+    background-color: rgb(111, 176, 72);
+    margin: 20px auto; 
+    
+}
+.box-text {
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(131, 167, 165);
+    line-height: 1.333;
+   width: 300px;
+    margin: 0 auto;
+}
+.temp-item{
+    display: flex;
+}
+.temp-img img{
+   width: 800px;
+}
