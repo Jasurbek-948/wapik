@@ -22,7 +22,21 @@
 }
 .temp-item{
     display: flex;
+    justify-content: end;
+    height: 500px;
+    align-items: center;
 }
 .temp-img img{
    width: 800px;
+}
+.temp{
+    padding-top: 85px;
+}
+.temp-inner{
+    width: 470px;
+    
+}
+.temp-text{
+    margin-top: 20px;
+    width: 465px !important;
 }

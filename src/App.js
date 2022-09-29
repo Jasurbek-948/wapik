@@ -14,7 +14,10 @@ function App() {
       <div className="feature">
         <Feature />
       </div>
-      <Templete />
+      <div className='templete'>
+        <Templete />
+      </div>
+      
       
       
     </div>

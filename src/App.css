@@ -1,6 +1,10 @@
 .head{
   background-image: url(./components/image/mainpage.png);
 }
+.templete{
+  background-image: url(./components/image/handle.png);
+}
 .feature{
   margin-top: 97px;
+  text-align: center;
 }
