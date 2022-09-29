@@ -1,5 +1,5 @@
 import React from 'react'
-import hand from '../image/hand.png'
+import tick from '../image/tick.png'
 import './Templete.css'
 const Templete = () => {
   return (
@@ -17,12 +17,22 @@ const Templete = () => {
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.
                 </div>
                 <div>
-                    <div>
-                    Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-
+                    <div className='d-flex my-3'>
+                        <div>
+                            <img src={tick} alt="" />
+                        </div>
+                        <div className='mx-3 box-text'>
+                            Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                        </div>
                     </div>
-                    <div>
-                    Donec id elit non mi porta gravida at eget metus.
+                    <div className='d-flex my-3'>
+                        <div>
+                            <img src={tick} alt="" />
+                        </div>
+                        <div className='mx-3 box-text'>
+                            Donec id elit non mi porta gravida at eget metus.
+                        </div>
+                    
                     </div>
 
                 </div>
