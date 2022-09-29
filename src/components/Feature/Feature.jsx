@@ -3,6 +3,10 @@ import './Feature.css'
 import object from '../image/Object.png'
 import smart from '../image/Smart.png'
 import vector from '../image/Vector.png'
+import globus from '../image/globus.png'
+import pen from '../image/pen.png'
+import lump from '../image/lump.png'
+import cloud from '../image/cloud.png'
 
 const Feature = () => {
   return (
@@ -55,27 +59,51 @@ const Feature = () => {
         <div className='row'>
             <div className="col">
                 <div>
-                    <img src="" alt="" />
-                    <div>Cross Browser Compatibility</div>
-                    <div>Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.</div>
+                    <div className='service'>
+                        <div className='service-img'>
+                            <img src={globus} alt="" />
+                        </div>
+                        
+                        <div className='col-title1'>Cross Browser Compatibility</div>
+                    </div>
+                    
+                    <div className='col-text'>Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.</div>
                 </div>
                 <div>
-                    <img src="" alt="" />
-                    <div>Pixel Perfect</div>
-                    <div>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    <div className='service'>
+                        <div className='service-img'>
+                            <img src={pen} alt="" />
+                        </div>
+                        
+                        <div className='col-title1'>Pixel Perfect</div>
+                    </div>
+                    
+                    <div className='col-text'>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                 </div>
                 
             </div>
             <div className="col">
             <div>
-                    <img src="" alt="" />
-                    <div>Creative Idea</div>
-                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.</div>
+                <div className='service'>
+                    <div className='service-img'>
+                        <img src={lump} alt="" />
+                    </div>
+                    
+                    <div className='col-title1'>Creative Idea</div>
+                </div>
+                    
+                    <div className='col-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.</div>
                 </div>
                 <div>
-                    <img src="" alt="" />
-                    <div>Free Forever and Ever</div>
-                    <div>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus.</div>
+                    <div className='service'>
+                        <div className='service-img'>
+                            <img src={cloud} alt="" />
+                        </div>
+                        
+                        <div className='col-title1'>Free Forever and Ever</div>
+                    </div>
+                    
+                    <div className='col-text'>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus.</div>
                 </div>
             </div>
         </div>

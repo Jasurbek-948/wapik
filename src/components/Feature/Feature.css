@@ -48,6 +48,22 @@
     background-color: rgb(242, 242, 242);
     margin: 0 auto;
 }
+.service{
+    display: flex;
+    margin: 55px 0 25px 0;
+}
+
+.col-title1{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(15, 95, 92);
+    line-height: 1.25;
+    margin-top: 5px;
+    
+}
+.service-img{
+    margin: 0 25px 0 0;
+}
 
 
 
