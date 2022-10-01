@@ -6,6 +6,7 @@ import Templete from './components/Templete/Templete';
 import Map from "./components/Map/Map";
 import Price from "./components/Price/Price";
 import Download from "./components/Download/Download";
+import Wapik from "./components/wapik/Wapik";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Map/>
         <Price />
       <Download/>
+        <Wapik/>
       
       
     </div>

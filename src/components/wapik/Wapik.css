@@ -1,0 +1,23 @@
+.news {
+    font-size: 22px;
+    font-family: "Myriad Pro";
+    color: rgb(15, 95, 92);
+    line-height: 1.692;
+}
+.news1{
+    font-size: 25px;
+    font-family: "ProximaNova";
+    color: rgb(15, 95, 92);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.592;
+    text-align: left;
+    font-weight: 600;
+}
+.wapik-input{
+    padding: 15px 15px 15px 15px;
+    width: 241px;
+    border: none;
+    background-color: rgb(238, 241, 236);
+    outline: none;
+}
