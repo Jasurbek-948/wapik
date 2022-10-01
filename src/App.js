@@ -4,6 +4,7 @@ import MainPage from './components/MainPage/MainPage';
 import Feature from './components/Feature/Feature'
 import Templete from './components/Templete/Templete';
 import Map from "./components/Map/Map";
+import Price from "./components/Price/Price";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Templete />
       </div>
         <Map/>
+        <Price />
       
       
       
