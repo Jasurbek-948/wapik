@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import MainPage from './components/MainPage/MainPage';
 import Feature from './components/Feature/Feature'
 import Templete from './components/Templete/Templete';
+import Map from "./components/Map/Map";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <div className='templete'>
         <Templete />
       </div>
+        <Map/>
       
       
       

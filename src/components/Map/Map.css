@@ -1,0 +1,16 @@
+
+.map{
+    display: flex;
+    justify-content: space-between;
+    height: 503px;
+    background-color: rgb(238, 241, 236);
+}
+.map-text{
+    width: 469px;
+    display: flex;
+    align-items: center;
+    margin-left: 233px;
+}
+.map-img{
+    margin-top: 60px;
+}
