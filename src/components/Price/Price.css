@@ -47,6 +47,22 @@
     display: flex;
     margin-top: 20px;
 }
+.help{
+    font-size: 32px;
+    font-family: "Roboto";
+    color: rgb(111, 176, 72);
+    line-height: 0.625;
+    margin-top: 15px;
+}
+.support {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Myriad Pro";
+    color: rgb(15, 95, 92);
+    line-height: 1.111;
+    margin-top: 40px;
+
+}
 
 
 

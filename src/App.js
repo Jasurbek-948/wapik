@@ -5,6 +5,7 @@ import Feature from './components/Feature/Feature'
 import Templete from './components/Templete/Templete';
 import Map from "./components/Map/Map";
 import Price from "./components/Price/Price";
+import Download from "./components/Download/Download";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       </div>
         <Map/>
         <Price />
-      
+      <Download/>
       
       
     </div>

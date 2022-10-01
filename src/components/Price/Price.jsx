@@ -1,6 +1,7 @@
 import React from 'react';
 import './Price.css'
 import tick from '../image/tick.png'
+import ball from '../image/ball.png'
 const Price = () => {
     return (
         <div>
@@ -143,19 +144,19 @@ const Price = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className="text-center my-5">
                         <div>
-                            <img src="" alt=""/>
+                            <img src={ball} alt=""/>
                         </div>
-                        <div>
+                        <div className="help">
                             Need Help?
                         </div>
                         <div className="line1"></div>
-                        <div>
+                        <div className="box-text" style={{width: "509px"}}>
                             Contact our Customer Support that is always ready to help you with any possible
                             questions, problems or information.
                         </div>
-                        <div>
+                        <div className="support">
                             support@wapik.com
                         </div>
                     </div>
