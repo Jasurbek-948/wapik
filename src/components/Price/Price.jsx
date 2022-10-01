@@ -147,6 +147,17 @@ const Price = () => {
                         <div>
                             <img src="" alt=""/>
                         </div>
+                        <div>
+                            Need Help?
+                        </div>
+                        <div className="line1"></div>
+                        <div>
+                            Contact our Customer Support that is always ready to help you with any possible
+                            questions, problems or information.
+                        </div>
+                        <div>
+                            support@wapik.com
+                        </div>
                     </div>
 
                 </div>
