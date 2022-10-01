@@ -64,28 +64,76 @@ const Price = () => {
                     <div className="row">
                         <div className="col">
                             <div className="price-tick">
-                                <div>
+                                <div className="mx-2">
                                     <img src={tick} alt=""/>
                                 </div>
                                 <div>
                                     Maecenas faucibus mollis interdum
                                 </div>
                             </div>
+                            <div className="price-tick">
+                                <div className="mx-2">
+                                    <img src={tick} alt=""/>
+                                </div>
+                                <div>
+                                    Nulla vitae elit libero, a pharetra augue
+                                </div>
+                            </div>
+                            <div className="price-tick">
+                                <div className="mx-2">
+                                    <img src={tick} alt=""/>
+                                </div>
+                                <div>
+                                    Nulla vitae elit libero, a pharetra augue
+                                </div>
+                            </div>
 
                         </div>
                         <div className="col">
                             <div className="price-tick">
-                                <div>
+                                <div className="mx-2">
                                     <img src={tick} alt=""/>
                                 </div>
                                 <div>
                                     Vestibulum id ligula porta felis euismod
                                 </div>
                             </div>
+                            <div className="price-tick">
+                                <div className="mx-2">
+                                    <img src={tick} alt=""/>
+                                </div>
+                                <div>
+                                    Nulla vitae elit libero, a pharetra augue
+                                </div>
+                            </div>
+                            <div className="price-tick">
+                                <div className="mx-2">
+                                    <img src={tick} alt=""/>
+                                </div>
+                                <div>
+                                    Nulla vitae elit libero, a pharetra augue
+                                </div>
+                            </div>
                         </div>
                         <div className="col">
                             <div className="price-tick">
+                                <div className="mx-2">
+                                    <img src={tick} alt=""/>
+                                </div>
                                 <div>
+                                    Nulla vitae elit libero, a pharetra augue
+                                </div>
+                            </div>
+                            <div className="price-tick">
+                                <div className="mx-2">
+                                    <img src={tick} alt=""/>
+                                </div>
+                                <div>
+                                    Nulla vitae elit libero, a pharetra augue
+                                </div>
+                            </div>
+                            <div className="price-tick">
+                                <div className="mx-2">
                                     <img src={tick} alt=""/>
                                 </div>
                                 <div>
