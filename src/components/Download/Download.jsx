@@ -1,24 +1,27 @@
 import React from 'react';
-
+import './Download.css'
 const Download = () => {
     return (
-        <div >
+        <div className="download" >
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <div>
+                        <div className="dw-text">
                             <div>
-                                Do You Like Wapik? Download it Now
+                                <div className="dw-inner">
+                                    Do You Like Wapik? Download it Now
+                                </div>
+                                <div className="dw-item">
+                                    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                                </div>
                             </div>
-                            <div>
-                                Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-                            </div>
+
                         </div>
 
                     </div>
                     <div className="col">
-                        <div>
-                            <button>download now! - FREE forever</button>
+                        <div className="dw-btn">
+                            <button className="btn-dw">download now! - FREE forever</button>
                         </div>
                     </div>
                 </div>

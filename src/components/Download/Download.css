@@ -1,0 +1,48 @@
+.download{
+
+    background-image: url(../image/bg.png);
+}
+.dw-text{
+    display: flex;
+    height: 200px;
+
+    align-items: center;
+}
+.dw-btn{
+    display: flex;
+    height: 200px;
+
+    align-items: center;
+    justify-content: center;
+}
+.dw-inner{
+    font-size: 28px;
+    font-family: "Myriad Pro";
+    color: rgb(15, 95, 92);
+    line-height: 0.786;
+}
+.dw-item{
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(131, 167, 165);
+    line-height: 1.467;
+    margin-top: 15px;
+}
+
+.btn-dw{
+    padding: 15px 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(111, 176, 72);
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.692;
+    text-align: center;
+}
+
+
+
+
+
